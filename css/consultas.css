@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../IMG/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-attachment: fixed;
+}
+
+/*---------------estilos de encbezado---------------*/
+.encabezado{
+    width: 100%;
+    height: 74px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    background-color: transparent;/*se tiene que modificar*/
+}
+.encabezado:hover{
+    background-color: rgba(24, 24, 24, 1);/*se tiene que modificar*/
+}
+.espacio{
+    width: 25%; 
+}
+.baner{
+    margin: 0;
+    padding: 0;
+    border-radius: 4px;
+    width: 50%;
+}
+.salir{
+    display: flex;
+    height: 100%;
+    width: 25%;
+    background: transparent;
+}
+.salir .menu{
+    list-style: none;
+    height: 60%;
+    width: 45%;
+    text-align: left;
+    display: flexbox;
+    align-content: center;
+}
+.salir .menu:hover{
+    border-style: solid;
+    border-width: 0.5;
+    border-radius: 4px;
+    border-color: rgba(255, 248, 220, 0.5);
+    background-color: rgba(255, 248, 220, 0.2);
+}
+.link a{
+    color: white;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration-line: none;
+    text-decoration: none;
+}
+/*---------------estilos de encbezado---------------*/
+#consulta_datos{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.entradas{
+    display: block;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border-block-end-width: initial;
+    border-bottom-style: groove;
+    border-radius: 5px;
+}
+.fecha{
+    color: #fff;
+    margin-top: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+}
+.botons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.button{
+    width: 20%;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    cursor: pointer;
+    color: #333;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+/*-------------------------Tabla de consultas-------------------------*/
+.tabla{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+}
+thead{
+    background-color: #333;
+    color: #fff;
+    border-bottom: solid 2px #fff;
+    text-align: center;
+}
+.table{
+    width: 90%;
+    text-align: left;
+    background-color: silver;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.4);
+    border-collapse: collapse;
+}
+th,td{
+    padding: 0;
+}
+tr:nth-child(even){
+    background-color: rgba(51, 51, 51, 0.212);
+}
+tr:hover td{
+    background-color: rgba(71, 74, 255, 0.377);
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.4);
+}
+/*-------------------------Tabla de consultas-------------------------*/

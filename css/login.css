@@ -1,0 +1,64 @@
+body{
+    background-image: url(../IMG/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    margin: 0;
+    color: silver;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_formulario{
+    height: 60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    margin: 150px auto 0 auto;
+    width: 75%;
+    background-color: transparent;
+    border-radius: 4px;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.4);
+}
+.input{
+    cursor: pointer;
+}
+.from-control{
+    text-align: center;
+    color: white;
+    display: block;
+    width: 95%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: rgba(3, 85, 85, 0.253);
+    border-radius: 5px;
+}
+.button{
+    width: 95%;
+    padding: 7px;
+    margin: 5px 5px;
+    border: none;
+    background-color: rgba(168, 198, 255, 0.281);
+    border-radius: 5px;
+    color: white;
+    font-size: 15pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.sesion{
+    font-size: 27pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 20pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+}
+.from-control::placeholder{
+    color: rgb(255, 255, 255);
+}
